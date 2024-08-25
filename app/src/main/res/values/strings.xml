@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">AgroInfo</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="agroInfo">AgroInfo</string>
+    <string name="background_image">background image</string>
+    <string name="username">Username</string>
+    <string name="hint_password">password</string>
+    <string name="hint_retype_password">retype password</string>
+    <string name="btnRegister">NEXT</string>
+    <string name="agroinfo">AgroInfo</string>
+    <string name="register_text">Register</string>
+    <string name="hint_regEmail">jane@example.com</string>
+    <string name="txtLogin">Already have an account? Login</string>
+    <string name="hint_regUsername">jane doe</string>
+    <string name="txtLog_in">Log in</string>
+    <string name="txtRegister">Don’t have an account? Sign Up</string>
+    <string name="btn_login">LOG IN</string>
+    <string name="txtInfo">comprehensive dictionary for argriculture</string>
+    <string name="txtSearch">Search</string>
+    <string name="search_all">Search all</string>
+    <string name="txt_search">Search here</string>
+    <string name="description">description</string>
+    <string name="image_name">Image Name</string>
+    <string name="image_view">image view</string>
+    <string name="see_more">SEE MORE</string>
+    <string name="wiki">WIKI</string>
+    <string name="detail_description">Description</string>
+    <string name="image_description">Image Description</string>
+    <string name="back_button">back button</string>
+    <string name="title">TITLE</string>
+</resources>

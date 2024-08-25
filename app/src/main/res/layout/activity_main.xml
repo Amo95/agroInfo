@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/homepage_image" />
+
+    <!-- Semi-transparent overlay for logo and text -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <!-- App Logo and Name -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agroInfo"
+            android:textSize="50sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:fontFamily="@font/comfortaa_regular" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtInfo"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:fontFamily="@font/comfortaa_regular" />
+    </LinearLayout>
+
+    <!-- White rectangle under the buttons -->
+    <View
+        android:id="@+id/white_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white" />
+
+    <!-- Buttons on top of the white rectangle -->
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_login"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="131dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/log_in"
+            android:textColor="@android:color/white"
+            app:cornerRadius="10dp" />
+
+        <Button
+            android:id="@+id/btn_register"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="134dp"
+            android:layout_height="58dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            app:cornerRadius="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
