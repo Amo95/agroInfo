@@ -29,4 +29,7 @@
     <string name="image_description">Image Description</string>
     <string name="back_button">back button</string>
     <string name="title">TITLE</string>
+    <string name="splash_background_image">splash background image</string>
+    <string name="welcome_text">AgroInfo</string>
+    <string name="sub_text">A Comprehensive platform for farmers</string>
 </resources>

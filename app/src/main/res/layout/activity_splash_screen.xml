@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/splash_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_image"
+        android:contentDescription="@string/splash_background_image" />
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/comfortaa_bold"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/splash_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_text"
+        android:textSize="11sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/splash_text"
+        android:fontFamily="@font/comfortaa_bold"
+        android:layout_centerInParent="true" />
+
+    <ProgressBar
+        android:id="@+id/splash_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_subtext"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/black"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
